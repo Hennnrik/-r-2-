@@ -3,23 +3,38 @@ body {
     background-color: #000033
 }
 
-div.header{
-  position: fixed;
-  background-color: #338833
-  width: 100%;
-  height:70px;
-}
+header{
+ background-color: #330033;
+ width: 110%;
+ height: 90px;
+ color: magenta;
+ font-family: Georgia;
+ font-size: 250%;
+ overflow: hidden;
+ padding: 0px;
+ border: 0px solid rgba(255, 255, 255, 0.8);
+ position: relative;
+ right:7px;
+ bottom:7px;
+ 
+} 
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-template-columns: 27% 27% 27%;
+    grid-template-rows: 170px 170px 170px;
+    grid-column-gap: 9%;
+    grid-row-gap: 9%;
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    border: 3px solid rgb(190, 103, 2);
+    padding: 0px;
     font-size: 30px;
     text-align: center;
   }
+
+img{
+  width: 100%;
+  height: 100%;
+}
